@@ -1,6 +1,8 @@
         <p style='text-align:right'>            
             <?php
-            if (isset($_SESSION) === false){session_start();}
+            if (isset($_SESSION) === false){
+                session_start();
+            }
 
             if (isset($_SESSION['member_id']) === false){
             ?>
